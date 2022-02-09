@@ -40,7 +40,7 @@ function onSearch(event) {
 function renderList(countries) {
     const markup = countries.map(({ name, flags }) =>{
         return `<li class="country-list__item">
-        <img class="country-list__flag" src="${flags.svg}" alt="Flag ${name.official}" width=30px heigth=30px>
+        <img class="country-list__flag" src="${flags.svg}" alt="Flag ${name.official}" width=40px heigth=30px>
         <h2 class="country-list_name">${name.official}</h2>
         </li> `
     }).join('')
