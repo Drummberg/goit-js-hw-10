@@ -52,7 +52,7 @@ function renderInfo(countries) {
         return `<ul class="country-info__list"
                     <li class="country-info__item"><p><b>Capital: </b>${capital}</p></li>
                     <li class="country-info__item"><p><b>Population: </b>${population}</p></li>
-                    <li class="country-info__item"><p><b>Languages: </b>${languages}</p></li>
+                    <li class="country-info__item"><p><b>Languages: </b>${languages.value}</p></li>
                 </ul>`
     }).join('')
     return markup
