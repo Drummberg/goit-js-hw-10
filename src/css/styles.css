@@ -6,7 +6,7 @@ body {
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgba(245, 245, 16, 0.664);
+  background: rgba(245, 245, 16, 0.664);
   color: #212121;
   line-height: 1.5;
   font-size: large;
